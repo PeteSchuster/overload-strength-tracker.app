@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="460" height="1000" viewBox="0 0 460 1000">
+  <rect width="460" height="1000" rx="40" fill="#161618"/>
+  <text x="230" y="80" fill="#f0efed" font-family="sans-serif" font-size="20" text-anchor="middle" font-weight="bold">Barbell Row</text>
+  <text x="50" y="130" fill="#888785" font-family="sans-serif" font-size="13" text-anchor="start">Set 1 failure weight over time</text>
+  <!-- Time filters -->
+  <rect x="120" y="155" width="50" height="28" rx="6" fill="#1e1e21"/>
+  <text x="145" y="174" fill="#888785" font-family="sans-serif" font-size="12" text-anchor="middle">1W</text>
+  <rect x="178" y="155" width="50" height="28" rx="6" fill="#1e1e21"/>
+  <text x="203" y="174" fill="#888785" font-family="sans-serif" font-size="12" text-anchor="middle">1M</text>
+  <rect x="236" y="155" width="50" height="28" rx="6" fill="#252528"/>
+  <text x="261" y="174" fill="#f0efed" font-family="sans-serif" font-size="12" text-anchor="middle">6M</text>
+  <rect x="294" y="155" width="50" height="28" rx="6" fill="#1e1e21"/>
+  <text x="319" y="174" fill="#888785" font-family="sans-serif" font-size="12" text-anchor="middle">All</text>
+  <!-- Chart area -->
+  <rect x="40" y="200" width="380" height="200" rx="12" fill="#1e1e21"/>
+  <polyline points="60,370 100,350 140,340 180,320 220,300 260,280 300,260 340,240 380,230 400,225" stroke="#c8b89a" stroke-width="2" fill="none"/>
+  <circle cx="400" cy="225" r="5" fill="#c8b89a"/>
+  <!-- Stats -->
+  <rect x="40" y="430" width="120" height="90" rx="12" fill="#1e1e21"/>
+  <text x="55" y="458" fill="#555452" font-family="sans-serif" font-size="10" letter-spacing="1">LAST WT.</text>
+  <text x="55" y="500" fill="#f0efed" font-family="monospace" font-size="28" font-weight="bold">160</text>
+  <text x="55" y="516" fill="#888785" font-family="sans-serif" font-size="12">lbs</text>
+  <rect x="170" y="430" width="120" height="90" rx="12" fill="#1e1e21"/>
+  <text x="185" y="458" fill="#555452" font-family="sans-serif" font-size="10" letter-spacing="1">ALL-TIME PR</text>
+  <text x="185" y="500" fill="#c8b89a" font-family="monospace" font-size="28" font-weight="bold">160</text>
+  <text x="185" y="516" fill="#8a7a64" font-family="sans-serif" font-size="12">lbs</text>
+  <rect x="300" y="430" width="120" height="90" rx="12" fill="#1e1e21"/>
+  <text x="315" y="458" fill="#555452" font-family="sans-serif" font-size="10" letter-spacing="1">LAST SESSION</text>
+  <text x="315" y="500" fill="#f0efed" font-family="monospace" font-size="22" font-weight="bold">6 days</text>
+  <text x="315" y="516" fill="#888785" font-family="sans-serif" font-size="12">ago</text>
+  <!-- History rows -->
+  <text x="55" y="570" fill="#555452" font-family="sans-serif" font-size="13">Mar 20</text>
+  <rect x="280" y="556" width="32" height="20" rx="4" fill="#5a8f5a"/>
+  <text x="296" y="570" fill="#f0efed" font-family="sans-serif" font-size="10" text-anchor="middle">PR</text>
+  <text x="340" y="570" fill="#f0efed" font-family="monospace" font-size="14">160 lbs</text>
+  <rect x="60" y="582" width="360" height="1" fill="#252528"/>
+  <text x="55" y="610" fill="#555452" font-family="sans-serif" font-size="13">Mar 13</text>
+  <text x="340" y="610" fill="#f0efed" font-family="monospace" font-size="14">157.5 lbs</text>
+  <rect x="60" y="622" width="360" height="1" fill="#252528"/>
+  <text x="55" y="650" fill="#555452" font-family="sans-serif" font-size="13">Mar 6</text>
+  <text x="340" y="650" fill="#f0efed" font-family="monospace" font-size="14">155 lbs</text>
+</svg>

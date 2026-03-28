@@ -43,7 +43,7 @@ export default function ProgressiveOverload() {
           <FadeIn delay={150} className="md:w-1/2 flex justify-center">
             <div className="w-[260px] md:w-[300px]">
               <img
-                src={`${base}screenshots/iphone-progress.png`}
+                src={`${base}screenshots/iphone-progress.svg`}
                 alt="Overload progress chart showing weight over time"
                 className="w-full rounded-[2rem] shadow-2xl"
               />

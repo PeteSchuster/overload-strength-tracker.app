@@ -2,7 +2,7 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 
-export default defineConfig({
+export default defineConfig(({ command }) => ({
   plugins: [react(), tailwindcss()],
-  base: '/progressive-overload-marketing/',
-})
+  base: command === 'serve' ? '/' : '/progressive-overload-marketing/',
+}))

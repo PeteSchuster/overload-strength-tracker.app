@@ -38,14 +38,14 @@ export default function WhyTheWatch() {
         <FadeIn delay={150} className="mt-12 flex justify-center gap-6 md:gap-10">
           <div className="w-[140px] md:w-[200px]">
             <img
-              src={`${base}screenshots/watch-today.png`}
+              src={`${base}screenshots/watch-today.svg`}
               alt="Apple Watch showing today's exercises"
               className="w-full rounded-2xl shadow-2xl"
             />
           </div>
           <div className="w-[140px] md:w-[200px]">
             <img
-              src={`${base}screenshots/watch-log.png`}
+              src={`${base}screenshots/watch-log.svg`}
               alt="Apple Watch logging a set"
               className="w-full rounded-2xl shadow-2xl"
             />
