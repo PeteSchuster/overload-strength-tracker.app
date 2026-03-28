@@ -9,6 +9,11 @@ export default function Hero() {
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-accent/[0.03] rounded-full blur-3xl pointer-events-none" />
 
       <FadeIn className="text-center max-w-4xl relative z-10">
+        <img
+          src={`${base}app-icon.png`}
+          alt="Overload app icon"
+          className="w-20 h-20 md:w-24 md:h-24 rounded-[22%] mx-auto mb-8 shadow-lg"
+        />
         <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold tracking-tight leading-[1.1]">
           Track your strength.
           <br />
