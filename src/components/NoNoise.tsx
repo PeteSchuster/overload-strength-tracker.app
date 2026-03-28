@@ -18,7 +18,7 @@ export default function NoNoise() {
           <FadeIn className="md:w-1/2 flex justify-center">
             <div className="w-[260px] md:w-[300px]">
               <img
-                src={`${base}screenshots/iphone-today.svg`}
+                src={`${base}screenshots/iphone-today.png`}
                 alt="Overload today view — clean, minimal interface"
                 className="w-full rounded-[2rem] shadow-2xl"
               />

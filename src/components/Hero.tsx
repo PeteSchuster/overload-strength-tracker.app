@@ -26,7 +26,7 @@ export default function Hero() {
           {/* Watch screenshot */}
           <div className="flex-shrink-0 w-[120px] md:w-[180px]">
             <img
-              src={`${base}screenshots/watch-log.svg`}
+              src={`${base}screenshots/watch-log.png`}
               alt="Overload on Apple Watch — logging a set"
               className="w-full rounded-2xl shadow-2xl"
             />
@@ -35,7 +35,7 @@ export default function Hero() {
           {/* iPhone screenshot — center hero */}
           <div className="flex-shrink-0 w-[200px] md:w-[280px]">
             <img
-              src={`${base}screenshots/iphone-log.svg`}
+              src={`${base}screenshots/iphone-log.png`}
               alt="Overload on iPhone — logging a set"
               className="w-full rounded-[2rem] shadow-2xl"
             />
@@ -44,7 +44,7 @@ export default function Hero() {
           {/* Watch screenshot */}
           <div className="flex-shrink-0 w-[120px] md:w-[180px]">
             <img
-              src={`${base}screenshots/watch-today.svg`}
+              src={`${base}screenshots/watch-today.png`}
               alt="Overload on Apple Watch — today's exercises"
               className="w-full rounded-2xl shadow-2xl"
             />
