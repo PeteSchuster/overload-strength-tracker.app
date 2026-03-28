@@ -1,5 +1,7 @@
 import FadeIn from './FadeIn'
 
+const base = import.meta.env.BASE_URL
+
 export default function CtaFooter() {
   return (
     <section className="px-6 py-20 md:py-32 bg-bg-secondary">
@@ -21,7 +23,7 @@ export default function CtaFooter() {
             aria-label="Download on the App Store"
           >
             <img
-              src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83"
+              src={`${base}app-store-badge.svg`}
               alt="Download on the App Store"
               className="h-[56px]"
             />

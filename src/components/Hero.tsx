@@ -9,11 +9,14 @@ export default function Hero() {
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-accent/[0.03] rounded-full blur-3xl pointer-events-none" />
 
       <FadeIn className="text-center max-w-4xl relative z-10">
-        <img
-          src={`${base}app-icon.png`}
-          alt="Overload app icon"
-          className="w-20 h-20 md:w-24 md:h-24 rounded-[22%] mx-auto mb-8 shadow-lg"
-        />
+        <div className="relative mx-auto mb-8 w-20 h-20 md:w-24 md:h-24">
+          <div className="absolute inset-0 scale-[2.5] bg-accent/[0.08] rounded-full blur-2xl pointer-events-none" />
+          <img
+            src={`${base}app-icon.png`}
+            alt="Overload app icon"
+            className="relative w-full h-full rounded-[22%] shadow-lg"
+          />
+        </div>
         <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold tracking-tight leading-[1.1]">
           Track your strength.
           <br />
@@ -65,7 +68,7 @@ export default function Hero() {
           aria-label="Download on the App Store"
         >
           <img
-            src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83"
+            src={`${base}app-store-badge.svg`}
             alt="Download on the App Store"
             className="h-[52px]"
           />
