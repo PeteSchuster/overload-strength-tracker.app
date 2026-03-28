@@ -1,4 +1,5 @@
 import FadeIn from './FadeIn'
+import AppStoreBadge from './AppStoreBadge'
 
 const base = import.meta.env.BASE_URL
 
@@ -62,17 +63,7 @@ export default function Hero() {
 
       {/* App Store badge */}
       <FadeIn delay={400} className="mt-10 relative z-10">
-        <a
-          href="#"
-          className="inline-block hover:opacity-80 transition-opacity"
-          aria-label="Download on the App Store"
-        >
-          <img
-            src={`${base}app-store-badge.svg`}
-            alt="Download on the App Store"
-            className="h-[52px]"
-          />
-        </a>
+        <AppStoreBadge />
       </FadeIn>
     </section>
   )

@@ -1,6 +1,5 @@
 import FadeIn from './FadeIn'
-
-const base = import.meta.env.BASE_URL
+import AppStoreBadge from './AppStoreBadge'
 
 export default function CtaFooter() {
   return (
@@ -17,17 +16,7 @@ export default function CtaFooter() {
           </p>
         </FadeIn>
         <FadeIn delay={200}>
-          <a
-            href="#"
-            className="inline-block mt-8 hover:opacity-80 transition-opacity"
-            aria-label="Download on the App Store"
-          >
-            <img
-              src={`${base}app-store-badge.svg`}
-              alt="Download on the App Store"
-              className="h-[56px]"
-            />
-          </a>
+          <AppStoreBadge className="mt-8" />
         </FadeIn>
       </div>
 
