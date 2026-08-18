@@ -2,7 +2,7 @@ import FadeIn from './FadeIn'
 
 export default function Discord() {
   return (
-    <section className="px-6 py-20 md:py-32 bg-bg-primary">
+    <section className="px-6 py-20 md:py-32 bg-bg-secondary">
       <div className="max-w-3xl mx-auto text-center">
         <FadeIn>
           <div className="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-[#5865F2]/10 mb-6">
