@@ -15,6 +15,9 @@ export default function Hero() {
           <img
             src={`${base}app-icon.png`}
             alt="Overload app icon"
+            width={1024}
+            height={1024}
+            fetchPriority="high"
             className="relative w-full h-full rounded-[22%] shadow-lg"
           />
         </div>
@@ -29,24 +32,38 @@ export default function Hero() {
         </p>
       </FadeIn>
 
+      {/* App Store badge — kept above the screenshots so the CTA lands in the first screen */}
+      <FadeIn delay={200} className="mt-8 relative z-10 flex flex-col items-center">
+        <AppStoreBadge />
+        <p className="mt-3 text-text-tertiary text-sm">
+          Free · iPhone &amp; Apple Watch · No account, no subscription
+        </p>
+      </FadeIn>
+
       {/* Screenshot showcase */}
-      <FadeIn delay={200} className="mt-12 md:mt-16 relative z-10">
+      <FadeIn delay={300} className="mt-12 md:mt-16 relative z-10">
         <div className="flex items-end justify-center gap-4 md:gap-8">
           {/* Watch screenshot */}
           <div className="flex-shrink-0 w-[120px] md:w-[180px]">
             <img
-              src={`${base}screenshots/watch-log.png`}
-              alt="Overload on Apple Watch — logging a set"
-              className="w-full rounded-2xl shadow-2xl"
+              src={`${base}screenshots/watch-logged.png`}
+              alt="Overload on Apple Watch — set logged"
+              width={416}
+              height={496}
+              decoding="async"
+              className="w-full h-auto rounded-2xl shadow-2xl"
             />
           </div>
 
           {/* iPhone screenshot — center hero */}
           <div className="flex-shrink-0 w-[200px] md:w-[280px]">
             <img
-              src={`${base}screenshots/iphone-log.png`}
+              src={`${base}screenshots/iphone-logging.png`}
               alt="Overload on iPhone — logging a set"
-              className="w-full rounded-[2rem] shadow-2xl"
+              width={660}
+              height={1434}
+              decoding="async"
+              className="w-full h-auto rounded-[2rem] shadow-2xl"
             />
           </div>
 
@@ -55,15 +72,13 @@ export default function Hero() {
             <img
               src={`${base}screenshots/watch-today.png`}
               alt="Overload on Apple Watch — today's exercises"
-              className="w-full rounded-2xl shadow-2xl"
+              width={416}
+              height={496}
+              decoding="async"
+              className="w-full h-auto rounded-2xl shadow-2xl"
             />
           </div>
         </div>
-      </FadeIn>
-
-      {/* App Store badge */}
-      <FadeIn delay={400} className="mt-10 relative z-10">
-        <AppStoreBadge />
       </FadeIn>
     </section>
   )
